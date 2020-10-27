@@ -1,42 +1,36 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import React, { Component } from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
-)
+import "../styles/header.scss"
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+class Header extends Component {
 
-Header.defaultProps = {
-  siteTitle: ``,
+  render() {    
+    return (
+      <div>
+        <header className="header">
+            <Link to="/" className="logo">
+                Wp Jump
+            </Link>
+            <input className="menu-btn" type="checkbox" id="menu-btn" />
+            <label className="menu-icon" for="menu-btn">
+                <span className="navicon" />
+            </label>
+            <ul className="menu">
+                <li>
+                    <Link className="item-nav" to="/whitelabel/"> Marque blanche</Link>
+                </li>
+                <li>
+                    <Link className="item-nav" to="/tarif/"> Tarifs</Link>
+                </li>
+                <li>
+                    <Link className="btn-grey" to="/bookacall/"> <i className="fas fa-comment"></i> Réserver un appel</Link>
+                </li>
+            </ul>
+        </header>
+      </div>
+    )
+  }
 }
 
 export default Header

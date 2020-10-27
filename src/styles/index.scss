@@ -1,0 +1,195 @@
+/***************** General index *****************/
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        width: 30%;
+        font-size: 24px;
+    }
+
+    h3{
+        width: 70%;
+        font-size: 36px;
+    }
+}
+
+/***************** Hero index *****************/
+
+.heroindex{
+    padding: 10px;
+    height:350px;
+    background: linear-gradient(180deg,#BF033B, #FFC719 );
+    border-bottom-right-radius: 600px 100px;
+    border-bottom-left-radius: 600px 100px;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+
+    .herocontent{
+        display: flex;
+        width: 85%;
+        justify-content: space-around;
+        padding-top: 50px;
+
+        img{
+            width: 80%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            position: relative;
+            animation: waves 1.5s infinite;
+            animation-direction: alternate;
+    
+            @keyframes waves {
+                0%{ top: 15px;}
+                100%{top: 0px;}
+            }
+        }
+
+        .grp-btn-hero{
+            margin-top: 50px;
+        }
+
+        .button{
+            margin: 10px 0;
+            width: 25%;
+        }
+
+        p{
+            font-size: 22px;
+        }
+        
+    }
+}
+
+@media (max-width: 48em){
+    .heroindex{
+        height: 400px;
+
+        img{display: none !important;}
+        
+        .button{
+            width: 60% !important;
+        }
+
+        .grp-btn-hero{
+            margin-top: 80px !important;
+        }
+    }
+}
+
+/***************** Services index *****************/
+
+
+.services{
+    margin: 100px auto 0 auto;
+    padding: 10px;;
+    width: 85%;
+    color: #313642;
+
+    .services-content{
+        display: flex;
+        margin:0 auto;
+        justify-content: center;
+        
+        
+
+        ul{
+            width: 90%;
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        li{
+            width: 50%;
+            display: flex;
+            align-items: center;
+
+            div{
+                width: 50px;
+                height: 50px;
+                padding: 5px;
+                margin: 10px;
+                background: #FFC719;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 15px;
+                color: #fff;
+                font-size: 36px;;
+            }
+
+            p{
+                font-size: 26px;
+            }
+
+        }
+    }
+
+}
+
+
+/***************** Pricing index *****************/
+
+.pricing{
+    background: linear-gradient(180deg, #FFC719, #BF033B );
+    height: 500px;
+    border-top-left-radius: 600px 100px;
+    border-bottom-right-radius: 600px 100px;
+    margin: 80px 0 200px 0;
+
+    .pricing-content{
+        width: 85%;
+        margin: 0 auto;
+        color: #fff;
+    }
+
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    li{
+        width: 25%;
+        padding: 50px 30px;
+        margin: 25px;
+        border-radius: 12px;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+        color: #313642;
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+
+        h3{
+            font-size: 22px;
+        }
+
+        h4{
+            font-size: 18px;
+        }
+
+        p{
+            margin-bottom: 35px;
+        }
+
+        .underline{
+            background-color: #BF033B;
+            width:35px;
+            height: 4px;
+            border-radius: 4px;
+        }
+
+        .button{
+            color: #fff;
+
+            &:hover{
+                color: #313642;
+            }
+        }
+    }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css');
+
+html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    color: #313642;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+
+    &:hover{
+        color: #313642;
+    }
+}
+
+body{
+    margin:0;
+    padding:0;
+}
+
+
+main{
+    margin-top: 76px;
+
+    @media (max-width: 48em){
+        margin-top: 58px;
+    }
+}
+
+i{
+    padding: 5px;
+
+    
+}
+
+.top-page{
+    width: 85%;
+    margin: 0 auto;
+    padding: 25px 0;
+    text-align: center;
+    color: #313642;
+
+    h1{
+        font-size: 36px;
+    }
+
+    h4{
+        font-size: 26px;
+    }
+}
+
+.btn-grey {
+    background: #313642;
+    border-radius: 8px;
+    transition: 0.3s;
+    padding: 10px 10px;
+    border: solid transparent .2rem;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    
+
+    &:hover {
+        background: #fff;
+        color: #313642;
+        border: solid #313642 .2rem;
+    }
+}
+
+.button{
+    background: #313642;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border: solid transparent .2rem;
+    cursor: pointer;
+
+    &:hover {
+        background: #fff;
+        color: #313642;
+        border: solid #313642 .2rem;
+
+        i{
+            color: #313642;
+            transform:rotate(25deg);
+        }
+
+        a{
+            color:#313642;
+        }
+    }
+}
+
+.bottom-border{
+    background: linear-gradient(90deg, #FFC719, #BF033B );
+    height: 5px;
+    width: 85%;
+    margin: 25px auto;
+}
+
+.btn-lg{
+    background: #313642;
+    padding: 10px 30px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    transition: 0.3s;
+    border: solid transparent .2rem;
+    cursor: pointer;
+    width: 20%;
+    text-transform: uppercase;
+    margin: 25px auto;
+    text-align: center;
+    font-size: 30px;
+
+    &:hover {
+        background: #fff;
+        color: #313642;
+        border: solid #313642 .2rem;
+
+        i{
+            color: #313642;
+            transform:rotate(25deg);
+        }
+
+        a{
+            color:#313642;
+        }
+    }
+}
