@@ -1,6 +1,8 @@
 import { Link } from "gatsby"
 import React, { Component } from "react"
 
+import Logo from "../images/logo.png"
+
 import "../styles/header.scss"
 
 class Header extends Component {
@@ -10,7 +12,7 @@ class Header extends Component {
       <div>
         <header className="header">
             <Link to="/" className="logo">
-                Wp Jump
+                <img src={Logo} alt="logo Wp Jump" />Wp Jump
             </Link>
             <input className="menu-btn" type="checkbox" id="menu-btn" />
             <label className="menu-icon" for="menu-btn">

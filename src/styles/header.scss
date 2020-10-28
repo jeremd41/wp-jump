@@ -42,13 +42,23 @@
 
 
 .header .logo {
-  display: block;
+  display: flex;
+  align-items: center;
   float: left;
   color: #fff;
   width:35%;
   padding-top: 15px;
   padding-left: 10px;
   text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+  font-size: 18px;
+
+  img{
+    width: 20%;
+    height: auto;
+    margin: 0 10px;
+  }
 }
 
 
