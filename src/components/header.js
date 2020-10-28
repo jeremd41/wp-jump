@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React, { Component } from "react"
 
-import Logo from "../images/liberty-wing.png"
+import Logo from "../images/logo.png"
 
 import "../styles/header.scss"
 
