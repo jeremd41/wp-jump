@@ -35,7 +35,7 @@ const Tarif = () =>{
                     name="Solo" 
                     prix="30 €"
                     quantity="1 site" 
-                    description="Idéal pour les entreprises qui souhaitent commencer doucement ou pour celles qui gères peu de sites"
+                    description="Idéal pour les entreprises qui gères peu de sites et commencent doucement..."
                 />
                 <Plan 
                     name="Perform"
@@ -47,7 +47,7 @@ const Tarif = () =>{
                     name="Elite"
                     prix="399 €"
                     quantity="Nombre sites illimité"
-                    description="Adapter aux agences qui souhaitent maintenir un grande quantité de site"
+                    description="Adapter aux agences qui souhaitent maintenir une grande quantité de site"
                 />
             </div>
             <div className="btn-lg"><Link to="/bookacall/">Réserver un appel</Link></div>

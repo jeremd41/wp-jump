@@ -90,3 +90,27 @@
         }
     }
 }
+
+
+@media (max-width: 48em){
+    .grp-card1{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 85%;
+    }
+
+    .partner{
+        .partner-content{
+            width: 90%;
+
+            .button{
+                width: 75%;
+                margin: 0 auto;
+            }
+        }
+    }
+
+}

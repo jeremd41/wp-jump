@@ -15,7 +15,7 @@ const Services = () =>{
                     <ul>
                         <li>
                             <div><i class="fas fa-pencil-ruler"></i></div>
-                            <p>Modifitions / édition 24/7</p>
+                            <p>Modifications / édition 24/7</p>
                         </li>
                         <li>
                             <div><i class="fas fa-eye"></i></div>
