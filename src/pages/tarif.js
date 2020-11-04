@@ -50,7 +50,7 @@ const Tarif = () =>{
                     description="Adapter aux agences qui souhaitent maintenir une grande quantité de site"
                 />
             </div>
-            <div className="btn-lg"><Link to="/bookacall/">Réserver un appel</Link></div>
+            <Link className="btn-lg" to="/bookacall/">Réserver un appel</Link>
         </Layout>
     )
 }

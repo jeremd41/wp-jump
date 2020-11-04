@@ -80,6 +80,7 @@ i{
     transition: 0.3s;
     border: solid transparent .2rem;
     cursor: pointer;
+    display: block;
 
     &:hover {
         background: #fff;
@@ -117,6 +118,7 @@ i{
     margin: 25px auto;
     text-align: center;
     font-size: 30px;
+    display: block;
 
     &:hover {
         background: #fff;

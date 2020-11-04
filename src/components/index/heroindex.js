@@ -11,8 +11,8 @@ const Heroindex = () =>{
                 <h1>Des services de gestion et de soutien de sites web WordPress 24/7 qui alimentent votre croissance</h1>
                 <p>Services de maintenance pour les propriétaires de sites web, gestion de sites en marque blanche pour les agences et les freelances.</p>
                 <div className="grp-btn-hero">
-                    <div className="button"><i className="fas fa-tag"></i> <Link to="/tarif/">Les tarifs</Link></div>
-                    <div className="button"><i class="fas fa-ghost"></i> <Link to="/whitelabel/">Option marque blanche</Link></div>
+                    <Link className="button" to="/tarif/"><i className="fas fa-tag"></i>Les tarifs</Link>
+                    <Link className="button" to="/whitelabel/"><i className="fas fa-ghost"></i>Option marque blanche</Link>
                 </div>
                 </div>
                 <div><img src={computer} alt="computer"/></div>

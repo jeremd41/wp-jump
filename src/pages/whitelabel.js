@@ -27,7 +27,7 @@ const whitelabel = () => (
     <div className="bottom-border" />
     <Partner />
     <div className="bottom-border" />
-    <div className="btn-lg"><Link to="/tarif/">Les tarifs</Link></div>
+    <Link className="btn-lg" to="/tarif/">Les tarifs</Link>
     
   </Layout>
 )

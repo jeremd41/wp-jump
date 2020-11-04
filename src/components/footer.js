@@ -9,7 +9,7 @@ const Footer = () =>  {
         <footer>
             <div className="callaction">
                 <h2>Envie de parler à un expert Wordpress ? </h2>
-                <div className="btn-grey"><i className="fas fa-comment"></i> <Link to="/bookacall/">Réserver un appel</Link></div>
+                <Link className="btn-grey" to="/bookacall/"> <i className="fas fa-comment"></i>Réserver un appel</Link>
             </div>
         </footer>
     )
