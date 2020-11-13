@@ -8,7 +8,7 @@ const Heroindex = () =>{
         <div className="heroindex">
             <div className="herocontent">
                 <div>
-                <h1>Des services de gestion et de soutien de sites web WordPress 24/7 qui alimentent votre croissance</h1>
+                <h1>Des services de gestion et de soutien de sites web WordPress en 24/7 qui alimentent votre croissance</h1>
                 <p>Services de maintenance pour les propriétaires de sites web, gestion de sites en marque blanche pour les agences et les freelances.</p>
                 <div className="grp-btn-hero">
                     <Link className="button" to="/tarif/"><i className="fas fa-tag"></i>Les tarifs</Link>
